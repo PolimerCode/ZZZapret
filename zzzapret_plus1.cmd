@@ -1,4 +1,4 @@
-start "zzzapret plus" /min "%~dp0winws.exe" ^
+start "zzzapret plus v1" /min "%~dp0winws.exe" ^
 --wf-tcp=80,443 --wf-udp=443,50000-50100 ^
 --filter-udp=443 --hostlist="%~dp0listGovnaPlus.txt" --dpi-desync=fake --dpi-desync-repeats=11 --dpi-desync-fake-quic="%~dp0quic_initial_www_google_com.bin" --new ^
 --filter-udp=50000-50100 --filter-l7=discord,stun --dpi-desync=fake --dpi-desync-repeats=6 --new ^
